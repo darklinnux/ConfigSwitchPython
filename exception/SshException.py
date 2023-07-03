@@ -1,5 +1,5 @@
 class SshException(Exception):
-    def __init__(self, text, value):
+    def __init__(self, text, value=""):
         super().__init__(text, value)
         self._value = value
         
